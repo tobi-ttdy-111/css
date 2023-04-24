@@ -1,0 +1,74 @@
+
+.block p {
+    /* display: block; */
+    width: max-content;
+    height: 30px;
+    padding: 10px;
+    background: #f50;
+    color: #000;
+}
+
+
+.inline p {
+    display: inline;
+    height: 200px;
+    padding: 10px;
+    background: #f50;
+    color: #000;
+}
+
+
+.inline-block p {
+    display: inline-block;
+    height: 30px;
+    padding: 10px;
+    background: #f50;
+    color: #000;
+}
+
+
+.posRelative {
+    margin-top: 3rem;
+}
+.posRelative .caja:nth-child( 1 ) { background: #0f0; }
+.posRelative .caja:nth-child( 2 ) { background: #00f; }
+.posRelative .caja:nth-child( 3 ) { background: #0ff; }
+.posRelative .caja:nth-child( 4 ) { background: #f0f; }
+
+
+
+.caja {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+
+#caja2Relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: -10;
+}
+
+
+.posAbsolute {
+    margin-top: 3rem;
+    margin: 100px;
+}
+.posAbsolute .caja:nth-child( 1 ) { background: #0f0; }
+.posAbsolute .caja:nth-child( 2 ) { background: #00f; }
+.posAbsolute .caja:nth-child( 3 ) { background: #0ff; }
+.posAbsolute .caja:nth-child( 4 ) { background: #f0f; }
+
+
+#caja2Absolute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: -10;
+    top: 0;
+}

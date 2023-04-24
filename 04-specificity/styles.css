@@ -1,0 +1,25 @@
+
+* {
+    color: black;
+    font-weight: 800;
+}
+
+
+p {
+    color: orange;
+}
+
+
+.yellow {
+    color: yellow;
+}
+
+
+#green {
+    color: green;
+}
+
+
+.important {
+    color: blueviolet !important;
+}

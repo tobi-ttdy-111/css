@@ -1,0 +1,16 @@
+
+p {
+    color: red;
+}
+
+
+.ms-caja1 {
+    color: blue;
+}
+
+
+.ms-caja1 p {
+    /* color: inherit; */
+    /* color: initial; */
+    color: unset;
+}

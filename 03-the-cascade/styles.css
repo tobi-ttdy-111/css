@@ -1,0 +1,22 @@
+
+button {
+    width: 150px;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+button.button1 {
+    background: black;
+}
+button.button1 {
+    background: red;
+}
+
+
+button.button2 {
+    background: black !important;
+    /* background: black */
+}

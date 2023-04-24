@@ -1,0 +1,87 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: red;
+    font-size: 30px;
+}
+
+
+.msa-caja {
+    width: 100px;
+    height: 100px;
+    padding: 60px;
+    margin: 15px;
+    background: black;
+}
+
+
+#msa-span {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+[ color ] {
+    color: red;
+}
+
+
+[ color = 'blue' ] {
+    color: blue;
+}
+
+
+h1,
+div,
+span,
+p {
+    padding: 15px;
+}
+
+
+button {
+    padding: 15px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    margin: 15px;
+}
+
+
+button:hover {
+    background: white;
+    border: 1px solid black;
+    color: black;
+    outline: none;
+}
+
+
+#msa-spanHola::before {
+    content: 'BEFORE';
+}
+
+
+#msa-spanHola::after {
+    content: 'AFTER';
+}
+
+
+article.ms-articuloEspecial * {
+    width: 200px;
+    height: 200px;
+    padding: 60px;
+    margin: 15px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,109 @@
+
+01-box-model  >  https://web.dev/learn/css/box-model/
+
+- todo en css es una caja
+- tamaño intrínseco / extrínseco
+- width
+	- min-content
+	- max-content
+- partes de la caja
+	- content
+	- padding
+	- border
+	- margin
+- box-sizing:
+	- border-box	' default
+	- content-box
+
+
+
+02-selectors  >  https://web.dev/learn/css/selectors/
+
+- selectores simples
+	- universal 		 ->  * {}
+	- tipo 				 ->  elemento {}
+	- clase				 ->  .clase {}
+	- identificador		 ->  #id {}
+	- atributo			 ->  [ atributo ] {}
+	- atributo-valor	 ->  [ atributo  -  'valor' ] {}
+- agrupamiento de selectores
+- pseudoclases  ->  :
+- pseudoelementos  ->  ::
+
+
+
+03-the-cascade  > https://web.dev/learn/css/the-cascade/
+
+- posicion y orden
+- especificidad
+- origen
+	- !important
+	- estilos desde html
+	- estilos desde css
+	- estilos locales
+- importancia
+	- regla de transition
+	- regla de important
+	- regla de animacion
+	- regla normal
+
+
+
+04-specificity  >  https://web.dev/learn/css/specificity/
+
+- puntuaciones de especificidad
+    ->  * {}                                              0 puntos
+    ->  elemento {} / ::pseudoelemento {}                 1 puntos
+    ->  .clase {} / :pseudoclase {} / [ atributo ] {}     10 puntos
+    ->  #id {}                                            100 puntos
+    ->  estilo aplicado directamente al elemento (html)   1000 puntos
+    ->  regla !important                                  10000 puntos
+
+
+
+05-inheritance  >  https://web.dev/learn/css/inheritance/
+
+- que es herencia
+- palabras clave
+	->  inherit
+	->  initial
+	->  unset
+
+
+
+06-color  >  https://web.dev/learn/css/color/
+
+- hexadecimales
+	->  #000
+	->  rgb( 0, 0, 0 )
+	->  color
+- opacidad
+	->  #0000
+	->  rgba( 0, 0, 0, 0 )
+
+
+
+07-sizing  >  https://web.dev/learn/css/sizing/
+
+- porcentajes
+- longitudes absolutas
+	->  Xpx
+- longitudes relativas
+	->  rem
+	->  em
+	->  vh / vw
+
+
+
+08-layout  >  https://web.dev/learn/css/layout/
+
+- display
+	->  block
+	->  inline
+	->  inline-block
+- position
+	->  static		'default
+	->  relative
+	->  absolute
+	->  fixed
+	->  sticky

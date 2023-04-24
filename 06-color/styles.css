@@ -1,0 +1,58 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+
+.cajas {
+    display: flex;
+}
+
+
+.caja {
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+#cajas1-1 { background: #000; }
+#cajas1-2 { background: #fff; border: 1px solid #000; color: #000; }
+#cajas1-3 { background: #f00; }
+#cajas1-4 { background: #0f0; }
+#cajas1-5 { background: #00f; }
+#cajas1-6 { background: #ff0; border: 1px solid #000; color: #000; }
+#cajas1-7 { background: #0ff; }
+#cajas1-8 { background: #f0f; }
+
+#cajas2-1 { background: rgb( 0, 0, 0 ); }
+#cajas2-2 { background: rgb( 255, 255, 255 ); border: 1px solid rgb( 0, 0, 0 ); color: rgb( 0, 0, 0 ); }
+#cajas2-3 { background: rgb( 255, 0, 0 ); }
+#cajas2-4 { background: rgb( 0, 255, 0 ); }
+#cajas2-5 { background: rgb( 0, 0, 255 ); }
+#cajas2-6 { background: rgb( 255, 255, 0 ); border: 1px solid #000; color: #000; }
+#cajas2-7 { background: rgb( 0, 255, 255 ); }
+#cajas2-8 { background: rgb( 255, 0, 255 ); }
+
+#cajas3-1 { background: black; }
+#cajas3-2 { background: white; border: 1px solid black; color: black; }
+#cajas3-3 { background: red; }
+#cajas3-4 { background: green; }
+#cajas3-5 { background: blue; }
+#cajas3-6 { background: yellow; border: 1px solid #000; color: #000; }
+#cajas3-7 { background: aqua; }
+#cajas3-8 { background: hotpink; }
