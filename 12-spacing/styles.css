@@ -1,0 +1,24 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+
+.caja1Margin {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    /* MARGIN */
+    /* margin: 20px; */
+    /* margin: 200px 10px; */
+    /* margin: 30px 10px 20px; */
+    margin: 30px 30px 30px 30px;
+}

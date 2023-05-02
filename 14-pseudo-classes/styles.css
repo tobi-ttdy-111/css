@@ -1,0 +1,110 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 2%;
+}
+
+
+main {
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+
+
+.caja {
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+
+.caja:hover {
+    background: #3478f1;
+}
+
+
+.links {
+    background: #3478f1;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.links a {
+    color: #fff;
+}
+.links a:link {
+    color: #191427;
+}
+.links a:visited {
+    color: #1428f1;
+}
+
+
+.otracaja {
+    background: slateblue;
+    margin-left: 20px;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.otracaja:active {
+    background: #3478f1;
+}
+
+
+.form {
+    background: #3478f1;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.form input {
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    background: #fff;
+}
+.form input:focus {
+    background: #1428f1;
+}
+
+
+.otramas {
+    background: slateblue;
+    color: #fff;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.otramas:lang( es ) {
+    color: #1428f1;
+}

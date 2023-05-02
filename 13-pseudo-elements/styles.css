@@ -1,0 +1,53 @@
+
+.first-line {
+    color: #333;
+    font-size: 15px;
+}
+.first-line::first-line {
+    color: red;
+    font-size: 20px;
+}
+
+
+.first-letter {
+    color: #333;
+    font-size: 15px;
+}
+.first-letter::first-letter {
+    color: red;
+    font-size: 20px;
+}
+
+
+.placeholder {
+    margin: 30px 0;
+}
+.placeholder input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.placeholder input::placeholder {
+    color: red;
+    font-size: 20px;
+}
+
+
+p::selection {
+    background: red;
+    color: #000;
+    font-size: 20px;
+}
+
+
+.beforeAfter::before {
+    content: 'me suscribi ';
+    color: red;
+    font-size: 20px;
+}
+.beforeAfter::after {
+    content: ' Easy Tutorials';
+    color: red;
+    font-size: 20px;
+}

@@ -1,0 +1,25 @@
+
+.grid-container {
+    display: grid;
+    background: #000;
+    grid-template-columns: 1fr 1fr 100px;
+    grid-template-rows: 1fr 1fr 100px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+
+.grid-container div {
+    background-color: #48e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+.grid1 {
+    grid-column: 1 / 3;
+}

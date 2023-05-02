@@ -107,3 +107,129 @@
 	->  absolute
 	->  fixed
 	->  sticky
+
+
+
+09-flexbox  >  https://web.dev/learn/css/flexbox/
+
+- main axis
+- cross axis
+- flex-direction
+	->  row			'default
+	->  row-reverse
+	->  column
+	->  column-reverse
+- flex-wrap
+	->	no-wrap
+	->  wrap
+	->  wrap-reverse
+- justify-content 	( main axis )
+	->  stretch		'default
+	->  center
+	->  space-between
+	->  space-around
+	->  space-evenly
+- align-items / aling-content	( cross axis )
+	->  stretch		'default
+	->  center
+	->  flex-start
+	->  flex-end
+	->  baseline
+
+
+
+10-grid  >  https://web.dev/learn/css/grid/
+
+- grid container
+- grid item
+- grid cell
+- grid tracks	( column y row )
+- grid area
+- grid line		( column y row )
+- propiedades ( container )
+	->  grid-template-rows
+	->  grid-template-colums
+	->  grid-row-gap
+	->  grid-column-gap
+	->  grid-gap
+	->  justify-content
+	->  align-content
+- propiedades ( item )
+	->  grid-row
+	->  grid-column
+- repeat( cantidad, tamaño/s )
+
+
+
+11-logical-properties  >  https://web.dev/learn/css/logical-properties/
+
+- flujo de bloques
+- writing-mode
+	->  vertical-rl
+	->  vertical-lr
+- max-width
+- min-width
+- max-height
+- min-height
+- text-align
+	->  center
+	->  start
+	->  end
+
+
+
+12-spacing  >  https://web.dev/learn/css/spacing/
+
+- margin
+	- 1 valor
+	- 2 valores
+	- 3 valores
+	- 4 valores
+- padding
+
+
+
+13-pseudo-elements  >  https://web.dev/learn/css/pseudo-elements/
+
+->  ::first-line
+->  ::first-letter
+->  ::placeholder
+->  ::selection
+->  ::before
+->  ::after
+
+
+
+14-pseudo-classes  >  https://web.dev/learn/css/pseudo-classes/
+
+->  :hover
+->  :link
+->  :visited
+->  :active
+->  :focus
+->  :lang
+
+
+
+15-borders  >  https://web.dev/learn/css/borders/
+
+- border-style
+	->  solid
+	->  dotted
+	->  dashed
+	->  double
+- shorthand
+	->  tamaño estilo color
+- border-radius
+
+
+
+16-shadows  >  shadows
+
+- box-shadow / text-shadow
+	- offsetX
+	- offsetY
+	- blur
+	- spread
+	- color
+- multiples sombras

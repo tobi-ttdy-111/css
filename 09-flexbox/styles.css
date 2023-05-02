@@ -1,0 +1,54 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.m-sectionFlex {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    /* FLEX-DIRECTION */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* FLEX-WRAP */
+    flex-wrap: nowrap;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* JUSTIFY-CONTENT */
+    /* justify-content: stretch; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* ALIGN-ITEMS */
+    /* align-items: stretch; */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+
+}
+
+
+.msF-flexItem {
+    background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
